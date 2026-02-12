@@ -10,7 +10,7 @@
                 box-sizing: border-box;
             }
 
-            html, body, main {
+            html, body {
                 height: 100%;
             }
 
@@ -19,7 +19,7 @@
                 color: #000;
             }
 
-            main {
+            body {
                 display: flex;
                 flex-direction: column;
                 align-items: center;
@@ -27,7 +27,7 @@
                 padding: 8px;
             }
 
-            main > * {
+            body > * {
                 position: absolute;
                 font-size: 30px;
                 opacity: 0;
@@ -77,11 +77,9 @@
         </style>
     </head>
     <body>
-        <main>
-            <span>Hello</span>
-            <span>World</span>
+        <span>Hello</span>
+        <span>World</span>
 
-            <img src="logo.svg" alt="cromanjonac.dev" id="logo" />
-        </main>
+        <img src="logo.svg" alt="cromanjonac.dev" id="logo" />
     </body>
 </html>
