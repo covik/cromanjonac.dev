@@ -43,9 +43,21 @@
                 from {
                     opacity: 0;
                 }
-                to {
+                50% {
                     opacity: 1;
                 }
+                to {
+                    opacity: 0;
+                }
+            }
+
+            span {
+                animation: become 3s linear 1;
+                animation-fill-mode: backwards;
+            }
+
+            span:nth-child(2) {
+                animation-delay: 3s;
             }
         </style>
     </head>
